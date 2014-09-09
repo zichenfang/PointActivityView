@@ -7,14 +7,20 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RootViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+//    [[UINavigationBar appearance]setBackgroundImage:[UIImage imageWithColor:[kBarColor colorWithAlphaComponent:1.0] cornerRadius:0.0f] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance]setTitleTextAttributes:@{UITextAttributeTextColor: [UIColor redColor]}];
+    
     self.window.backgroundColor = [UIColor whiteColor];
+    RootViewController *rootVC =[[RootViewController alloc]init];
+    self.window.rootViewController =[[UINavigationController alloc] initWithRootViewController:rootVC];
     [self.window makeKeyAndVisible];
     return YES;
 }

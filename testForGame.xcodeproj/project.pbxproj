@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E8A2EDB19BECF4F00E677C9 /* PointActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A2EDA19BECF4F00E677C9 /* PointActivityView.m */; };
+		1E8A2EDD19BECF7A00E677C9 /* PointActivityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E8A2EDC19BECF7A00E677C9 /* PointActivityView.xib */; };
 		1E9FDF6219B6EAD00050C9B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9FDF6119B6EAD00050C9B7 /* Foundation.framework */; };
 		1E9FDF6419B6EAD00050C9B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9FDF6319B6EAD00050C9B7 /* CoreGraphics.framework */; };
 		1E9FDF6619B6EAD00050C9B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9FDF6519B6EAD00050C9B7 /* UIKit.framework */; };
@@ -19,6 +21,8 @@
 		1E9FDF7D19B6EAD00050C9B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9FDF6519B6EAD00050C9B7 /* UIKit.framework */; };
 		1E9FDF8519B6EAD00050C9B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E9FDF8319B6EAD00050C9B7 /* InfoPlist.strings */; };
 		1E9FDF8719B6EAD00050C9B7 /* testForGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9FDF8619B6EAD00050C9B7 /* testForGameTests.m */; };
+		1E9FDF9219B6EAF60050C9B7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9FDF9119B6EAF60050C9B7 /* RootViewController.m */; };
+		1E9FDF9519B6EB2B0050C9B7 /* MyGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9FDF9419B6EB2B0050C9B7 /* MyGameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E8A2ED919BECF4F00E677C9 /* PointActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointActivityView.h; sourceTree = "<group>"; };
+		1E8A2EDA19BECF4F00E677C9 /* PointActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointActivityView.m; sourceTree = "<group>"; };
+		1E8A2EDC19BECF7A00E677C9 /* PointActivityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PointActivityView.xib; sourceTree = "<group>"; };
 		1E9FDF5E19B6EAD00050C9B7 /* testForGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testForGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9FDF6119B6EAD00050C9B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1E9FDF6319B6EAD00050C9B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +55,10 @@
 		1E9FDF8219B6EAD00050C9B7 /* testForGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testForGameTests-Info.plist"; sourceTree = "<group>"; };
 		1E9FDF8419B6EAD00050C9B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E9FDF8619B6EAD00050C9B7 /* testForGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testForGameTests.m; sourceTree = "<group>"; };
+		1E9FDF9019B6EAF60050C9B7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1E9FDF9119B6EAF60050C9B7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1E9FDF9319B6EB2B0050C9B7 /* MyGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGameViewController.h; sourceTree = "<group>"; };
+		1E9FDF9419B6EB2B0050C9B7 /* MyGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +120,13 @@
 			children = (
 				1E9FDF7019B6EAD00050C9B7 /* AppDelegate.h */,
 				1E9FDF7119B6EAD00050C9B7 /* AppDelegate.m */,
+				1E9FDF9019B6EAF60050C9B7 /* RootViewController.h */,
+				1E9FDF9119B6EAF60050C9B7 /* RootViewController.m */,
+				1E9FDF9319B6EB2B0050C9B7 /* MyGameViewController.h */,
+				1E9FDF9419B6EB2B0050C9B7 /* MyGameViewController.m */,
+				1E8A2ED919BECF4F00E677C9 /* PointActivityView.h */,
+				1E8A2EDA19BECF4F00E677C9 /* PointActivityView.m */,
+				1E8A2EDC19BECF7A00E677C9 /* PointActivityView.xib */,
 				1E9FDF7319B6EAD00050C9B7 /* Images.xcassets */,
 				1E9FDF6819B6EAD00050C9B7 /* Supporting Files */,
 			);
@@ -220,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E9FDF6C19B6EAD00050C9B7 /* InfoPlist.strings in Resources */,
+				1E8A2EDD19BECF7A00E677C9 /* PointActivityView.xib in Resources */,
 				1E9FDF7419B6EAD00050C9B7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E9FDF9519B6EB2B0050C9B7 /* MyGameViewController.m in Sources */,
 				1E9FDF7219B6EAD00050C9B7 /* AppDelegate.m in Sources */,
 				1E9FDF6E19B6EAD00050C9B7 /* main.m in Sources */,
+				1E8A2EDB19BECF4F00E677C9 /* PointActivityView.m in Sources */,
+				1E9FDF9219B6EAF60050C9B7 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +384,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testForGame/testForGame-Prefix.pch";
 				INFOPLIST_FILE = "testForGame/testForGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +398,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testForGame/testForGame-Prefix.pch";
 				INFOPLIST_FILE = "testForGame/testForGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -439,6 +463,7 @@
 				1E9FDF8C19B6EAD00050C9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E9FDF8D19B6EAD00050C9B7 /* Build configuration list for PBXNativeTarget "testForGameTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +472,7 @@
 				1E9FDF8F19B6EAD00050C9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

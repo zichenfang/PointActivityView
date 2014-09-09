@@ -14,3 +14,6 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+//屏幕宽高
+#define kDeviceWidth [UIScreen mainScreen].bounds.size.width
+#define KDeviceHeight [UIScreen mainScreen].bounds.size.height
