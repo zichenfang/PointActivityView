@@ -43,6 +43,7 @@
     animation.duration = 1.3;
     animation.beginTime = CACurrentMediaTime() + delay;
     [aView.layer addAnimation:animation forKey:@"pointAni"];//添加动画
+    
 
 }
 - (void)stopAnimating
